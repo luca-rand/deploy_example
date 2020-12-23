@@ -3,7 +3,7 @@ addEventListener("fetch", (event) => {
 });
 
 async function handle(request: Request): Promise<Response> {
-  return new Response("Hello world!", {
+  return new Response("Hello world!!!", {
     status: 200,
     headers: {
       "content-type": "text/plain",
